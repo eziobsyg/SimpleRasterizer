@@ -1,5 +1,5 @@
-#ifndef A1_H
-#define A1_H
+#ifndef RASTERIZER_H
+#define RASTERIZER_H
 
 #include <iostream>
 #include <string>
