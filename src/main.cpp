@@ -1,4 +1,4 @@
-#include "A1.h"
+#include "rasterizer.h"
 
 double RANDOM_COLORS[7][3] = {
 	{0.0000,    0.4470,    0.7410},

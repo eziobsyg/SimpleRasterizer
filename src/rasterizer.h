@@ -15,9 +15,6 @@
 #include "affine_transform.h"
 
 
-// This allows you to skip the `std::` in front of C++ standard library
-// functions. You can also say `using std::cout` to be more selective.
-// You should never do this in a header file.
 using namespace std;
 
 #endif

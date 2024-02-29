@@ -1,15 +1,9 @@
 CMAKE_MINIMUM_REQUIRED(VERSION 3.10)
 
-# Name of the project
 PROJECT(Rasterizer)
 
-# Is this the solution?
-# Override with `cmake -DSOL=ON ..`
 OPTION(SOL "Solution" OFF)
 
-# Use glob to get the list of all source files.
-# We don't really need to include header and resource files to build, but it's
-# nice to have them also show up in IDEs.
 IF(${SOL})
 	FILE(GLOB_RECURSE SOURCES "src0/*.cpp")
 	FILE(GLOB_RECURSE HEADERS "src0/*.h")
